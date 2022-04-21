@@ -1,0 +1,192 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    /* font-family: 'Lato', sans-serif; */
+font-family: 'Roboto', sans-serif;
+/* font-family: 'Source Sans Pro', sans-serif; */
+
+}
+
+.top-list{
+    width: 100%;
+    background-color: #f4f4f4;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 65px;
+    padding: 1px 25px 0 12px;
+    margin: 10px;
+}
+nav ul{
+    display: flex;
+    justify-content: center; 
+    height: 25px;
+    margin-left: 110px;
+    
+
+}
+nav ul li{
+    list-style: none;
+    /* padding: 0 20px; */
+    padding: 0 9px 16px;
+    
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(39, 33, 33);
+    font-size: smaller;
+    text-align: center;
+    font-size: 8px;
+}
+nav ul li a:hover{ 
+    font-weight: bolder;
+    color: #F57224;
+}
+
+.search{
+    margin-left :  50px;
+    width: 50vw;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    color: blueviolet;
+    background-color: rgb(209, 205, 205);
+}
+
+.search input{
+    font-size: 10px;
+    text-indent: 12px;
+    width: 45vw;
+    height: 27px;
+    border-radius: 10px;
+    margin:   2 8;
+   
+   
+    /* margin: 0 16px 0 56px;
+    padding:0 12px; */
+    border: none;
+    background-color: rgb(209, 205, 205);
+}
+
+.btn{
+
+    margin-left: 10px;
+   background-color:rgb(209, 205, 205) ;
+   color: #F57224 ;
+   border: 10px;
+   padding: 7px;
+   border-radius: 10px;
+
+}
+.cart{
+    width: 12%;
+    margin-left: 30px;
+}
+
+.end-logo img{
+    width: 188px;
+    height: 45px;
+    display: block;
+}
+
+.wrapper{
+    width: 1170px;
+    margin:auto;
+}
+.menu-area{
+    margin-top: -9px;
+}
+.menu-area ul{
+    /* background: #e9e6e5; */
+    list-style: none;
+    position: relative;
+    /* text-transform: uppercase; */
+    font-size: 10px;
+}
+.menu-area ul li{
+    display: inline-block;
+
+}
+.menu-area ul li a{
+    color: #6b6b6b;
+    text-decoration: none;
+    display: block;
+    padding: 1px 20px;
+   
+}
+.menu-area ul li:hover{
+    background: #dfb982;
+}
+.menu-area ul li:hover > ul{
+    display: block;
+}
+.menu-area ul ul{
+    display: none;
+    position: absolute;
+    top: 100%;
+    background: floralwhite;
+}
+.menu-area ul ul li{
+    position: relative;
+    display: block;
+    border-bottom: 1px solid #ffffff;
+}
+.menu-area ul ul ul{
+    position: absolute; 
+    left: 100%;
+    top: 0;
+}
+
+.slider{ 
+    width: 70vw;
+    margin: 12px auto;
+    overflow: hidden; 
+}
+
+.cards{
+    display: flex; 
+    overflow: hidden;
+}
+
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 15px;
+}
+
+.card h2{
+    font-family: 'Lato', sans-serif;
+}
+
+.container{
+    min-height: calc(100vh - 58px - 12vh);
+}
+
+footer{
+    height: 66vh;
+    background-color: #2E2E54; 
+    color:#FFFFFF;
+    font-family: 'Lato', sans-serif;
+    font-size: 10px;
+    padding-left: 15px;
+    margin-bottom: 12px;
+}
+.footer-2{
+    padding: 12px;
+}
+
+
+
+
+
+
+
+
+
+
